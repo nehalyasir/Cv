@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My CV</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</head>
+
+
+
+<style>
+    #container3 {
+        width: 500%;
+        height: 650px;
+        border-radius: 5px;
+        display: none;
+    }
+</style>
+
+
+<body>
+
+    <div div class="container mt-5" id="container1">
+
+        <div>
+            <h3>MY INFORMATION</h3>
+            <hr class="bg-primary">
+        </div>
+
+        <input type="file" style="margin-left: 400px;" id="file">
+
+        <div class="row mt-5">
+            <div class="col-sm-6">
+                <input type="text" placeholder="First Name" id="inp1"
+                    style="width: 90%;  border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>First Name</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+                <input type="text" placeholder="Last Name" id="inp2"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Last Name</h6>
+
+            </div>
+        </div>
+
+
+
+        <div class="row mt-4">
+
+            <div class="col-sm-6">
+                <input type="text" placeholder="Father Name" id="inp3"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Father Name</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+                <input type="text" placeholder="CNIC" id="inp4"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>CNIC</h6>
+
+            </div>
+        </div>
+
+
+
+        <div class="row mt-4">
+            <div class="col-sm-6">
+                <input type="text" placeholder="Address" id="inp5"
+                    style="width: 196%;  border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Address</h6>
+
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+
+            <div class="col-sm-6">
+                <input type="text" placeholder="Gmail@.com" id="inp6"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Gmail</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+                <input type="text" placeholder="Telephone" id="inp7"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Telephone</h6>
+
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+
+            <div class="col-sm-6">
+                <input type="date" placeholder="Date Of Birth" id="inp8"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Date Of Birth</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+                <input type="text" placeholder="Nationality" id="inp9"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Nationality</h6>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="row mt-4">
+
+            <div class="col-sm-4 mt-4.5">
+                <input type="text" placeholder="University,Board,Insyitute" id="inp10"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>University,Board,Insyitute</h6>
+            </div>
+
+            <div class="col-sm-4 mt-4.5">
+                <input type="text" placeholder="Result" id="inp11"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Result</h6>
+            </div>
+
+            <div class="col-sm-4 mt-4.5">
+                <input type="date" placeholder="Year" id="inp12"
+                    style=" width: 90%; border-radius: 5px; border-color: rgb(106, 106, 228);">
+                <h6>Year</h6>
+            </div>
+        </div>
+
+        <div class="col-sm-4 mt-4.5">
+            <input type="radio" name="gender" value="male" >
+            <h6>Male</h6>
+            <span>
+                <input type="radio" name="gender" value="female">
+                <h6>Female</h6>
+            </span>
+        </div>
+
+        <div class="mt-4.5">
+            <button class="btn btn-outline-dark btn-sm"
+                style="margin-left: 950px; box-shadow: 2px 2px 3px rgb(31, 10, 218); border-color: rgb(255, 8, 201);"
+                id="next_btn">preview</button>
+        </div>
+
+        
+    </div>
+    <!-- ---------------------------------------Container1 End------------------------------------------------- -->
+
+    <!-- --------------------------------------Container3 Start---------------------------------------------------- -->
+
+
+
+    <div class="container mt-5" id="container3">
+
+        <div class="d-flex">
+            <h3>MY INFORMATION</h3>
+            <button class="btn btn-outline-dark"
+                style="margin-left: 700px;box-shadow: 2px 2px 3px rgb(31, 10, 218); border-color: rgb(255, 8, 201);"
+                id="print">print</button>
+            <hr class="bg-primary">
+        </div>
+
+
+        <div class="img1">
+            <img src="" id="img" width="15%" style="border-radius: 100px;" alt="my image">
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-sm-6">
+
+                <h4 id="fname"></h4>
+                <h6 class="bg-dark text-light">First Name</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <h4 id="lname"></h4>
+                <h6 class="bg-dark text-light">Last Name</h6>
+
+            </div>
+        </div>
+
+
+
+        <div class="row mt-4">
+
+            <div class="col-sm-6">
+
+                <h4 id="father_name"></h4>
+                <h6 class="bg-dark text-light">Father Name</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <h4 id="cnic"></h4>
+                <h6 class="bg-dark text-light">CNIC</h6>
+
+            </div>
+        </div>
+
+
+
+        <div class="row mt-4">
+            <div class="col-sm-6">
+
+                <h4 id="add"></h4>
+                <h6 class="bg-dark text-light">Address</h6>
+
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+
+            <div class="col-sm-6">
+
+                <h4 id="gmail"></h4>
+                <h6 class="bg-dark text-light">Gmail</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <h4 id="tell"></h4>
+                <h6 class="bg-dark text-light">Telephone</h6>
+
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+
+            <div class="col-sm-6">
+
+                <h4 id="date_of_birth"></h4>
+                <h6 class="bg-dark text-light">Date Of Birth</h6>
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <h4 id="Nationality"></h4>
+                <h6 class="bg-dark text-light">Nationality</h6>
+
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-sm-6">
+                <h4 id="Gender"></h4>
+            </div>
+        </div>
+        
+        <div class="row mt-5">
+
+            <div class="col-sm-4 mt-5">
+
+                <h4 id="ubi"></h4>
+                <h6 class="bg-dark text-light">University,Board,Insyitute</h6>
+            </div>
+
+            <div class="col-sm-4 mt-5">
+
+                <h4 id="result"></h4>
+                <h6 class="bg-dark text-light">Result</h6>
+            </div>
+
+            <div class="col-sm-4 mt-5">
+
+                <h4 id="year"></h4>
+                <h6 class="bg-dark text-light">Year</h6>
+            </div>
+        </div>
+
+        
+
+
+
+
+    </div>
+
+    <!-- --------------------------------------------------Container3 End----------------------------------------------------------------- -->
+    <script>
+
+
+
+        $(document).ready(function () {
+
+            $("#file").change(function (data) {
+                var src = URL.createObjectURL(data.target.files[0]);
+
+                $("#img").attr("src", src);
+            })
+
+            $("#next_btn").click(function () {
+
+                $("#container1").hide();
+                $("#container3").show();
+
+                var fname = $("#inp1").val();
+                $("#fname").text(fname);
+
+                var lname = $("#inp2").val();
+                $("#lname").text(lname);
+
+                var father_name = $("#inp3").val();
+                $("#father_name").text(father_name);
+
+                var CNIC = $("#inp4").val();
+                $("#cnic").text(CNIC);
+
+                var add = $("#inp5").val();
+                $("#add").text(add);
+
+                var gmail = $("#inp6").val();
+                $("#gmail").text(gmail);
+
+                var tell = $("#inp7").val();
+                $("#tell").text(tell);
+
+                var date_of_birth = $("#inp8").val();
+                $("#date_of_birth").text(date_of_birth);
+
+                var Nationality = $("#inp9").val();
+                $("#Nationality").text(Nationality);
+
+                var ubi = $("#inp10").val();
+                $("#ubi").text(ubi);
+
+                var result = $("#inp11").val();
+                $("#result").text(result);
+
+                var year = $("#inp12").val();
+                $("#year").text(year);
+
+                // var gender = $("#male1").val();
+                var gender = $('input[name="gender"]:checked').val();
+                $("#Gender").text(gender);
+            })
+
+            $("#print").click(function () {
+                window.print();
+            })
+
+
+
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
